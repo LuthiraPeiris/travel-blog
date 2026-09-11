@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="py-14">
           <div className="flex flex-col items-center text-center">
 
-            <div className="font-serif text-2xl">
+            <div className="font-[family-name:var(--font-heading)] text-3xl">
               The Smooth Escape
             </div>
 

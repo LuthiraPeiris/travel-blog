@@ -15,11 +15,11 @@ export default function Header() {
         <div className="flex min-h-[150px] flex-col items-center justify-center gap-7">
           {/* Temporary logo */}
           <div className="text-center">
-            <div className="font-serif text-[32px] leading-none tracking-[-0.04em]">
+            <div className="font-[family-name:var(--font-heading)] text-[34px] leading-none tracking-[-0.03em]">
               The Smooth Escape
             </div>
 
-            <div className="mt-2 text-[9px] uppercase tracking-[0.38em]">
+            <div className="mt-2 font-[family-name:var(--font-body)] text-[9px] uppercase tracking-[0.35em]">
               Travel • Nature • Adventure
             </div>
           </div>
