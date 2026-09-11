@@ -6,6 +6,7 @@
   --muted: #77716b;
   --accent: #b86667;
   --footer: #d7d0c9;
+  --border: #c8c1bb;
 }
 
 * {
@@ -20,8 +21,18 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+  font-weight: 500;
 }
 
 a {
@@ -29,11 +40,14 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+input,
+textarea,
+select {
   font: inherit;
 }
 
 ::selection {
-  background: #302d2a;
-  color: #f4f1ed;
+  background: var(--foreground);
+  color: var(--background);
 }
